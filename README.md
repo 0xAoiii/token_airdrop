@@ -7,21 +7,21 @@ A simple Python script to evenly airdrop your Solana token to a list of wallet a
 - Python 3.8+
 - Solana CLI installed
 - SPL Token CLI installed
-- Your wallet funded with enough SOL to cover transaction fees
+- Solana wallet with sufficient SOL for transaction fees
 
 # Setup:
 
 1. Clone this repository:
-
-`git clone https://github.com/0xAoiii/token_airdrop`
-
+   `git clone https://github.com/0xAoiii/token_airdrop
+cd token_airdrop`
 2. Prepare your wallet_addresses.csv file:
 
 Instead of manually adding wallet addresses, use the Twitter Scraper tool to extract wallet addresses directly from Twitter comments.
 
-Clone it here:
+3. Clone it here:
 
 `git clone https://github.com/0xAoiii/twitter_scraper`
+
 The Twitter Scraper will generate a wallet_addresses.csv file with the correct format:
 
 `wallet_address
@@ -46,7 +46,7 @@ Inside the token_airdrop directory, run:
 
 Tokens will be evenly sent to all listed wallet addresses.
 
-## Notes
+# Notes
 
 Be cautious with your funding! Each transfer costs a small amount of SOL.
 
