@@ -12,8 +12,10 @@ A simple Python script to evenly airdrop your Solana token to a list of wallet a
 # Setup:
 
 1. Clone this repository:
-   `git clone https://github.com/0xAoiii/token_airdrop
-cd token_airdrop`
+
+`git clone https://github.com/0xAoiii/token_airdrop
+`
+
 2. Prepare your wallet_addresses.csv file:
 
 Instead of manually adding wallet addresses, use the Twitter Scraper tool to extract wallet addresses directly from Twitter comments.
@@ -24,15 +26,13 @@ Instead of manually adding wallet addresses, use the Twitter Scraper tool to ext
 
 The Twitter Scraper will generate a wallet_addresses.csv file with the correct format:
 
-`
-wallet_address
+`wallet_address
 WalletAddress1
 WalletAddress2
 WalletAddress3
-...
-`
+...`
 
-Move the generated wallet_addresses.csv into the token_airdrop directory (the same folder as token_airdrop.py).
+4. Move the generated wallet_addresses.csv into the token_airdrop directory (the same folder as token_airdrop.py).
 
 # Edit token_airdrop.py
 
