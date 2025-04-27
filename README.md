@@ -24,11 +24,13 @@ Instead of manually adding wallet addresses, use the Twitter Scraper tool to ext
 
 The Twitter Scraper will generate a wallet_addresses.csv file with the correct format:
 
-`wallet_address
+`
+wallet_address
 WalletAddress1
 WalletAddress2
 WalletAddress3
-...`
+...
+`
 
 Move the generated wallet_addresses.csv into the token_airdrop directory (the same folder as token_airdrop.py).
 
