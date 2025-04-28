@@ -34,13 +34,13 @@ WalletAddress3
 
 4. Move the generated wallet_addresses.csv into the token_airdrop directory (the same folder as token_airdrop.py).
 
-# Edit token_airdrop.py
+# Edit token_airdrop.py:
 
 Replace YOUR_TOKEN_MINT_ADDRESS with your actual token mint address.
 
 Adjust the total token amount if different from 750 million tokens. (Default setup distributes 750M tokens evenly.)
 
-# Run the Script
+# Run the Script:
 
 Inside the token_airdrop directory, run:
 
